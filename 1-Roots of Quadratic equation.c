@@ -33,3 +33,10 @@ int main()
     calc_roots(a, b, c);
     return 0;
 }
+
+/*
+Output
+Roots are complex 
+1.250000 + i6.244998
+1.250000 - i6.244998
+*/
