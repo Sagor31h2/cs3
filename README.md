@@ -1,14 +1,16 @@
-Cs3 codes
+# Cs3 codes and Reference
 
-Sample outputs are in comment
+_Sample outputs are in comment_
 
-# IDE
+## IDE
 
 - **Windows** Code Blocks [Link](https://tinyurl.com/f8cfs5uh)
 - **Android** Decoder [Link](https://tinyurl.com/4mmtmmx8)
 - Online [Link](https://tinyurl.com/2cydcpn3)
 
-# C Programming Reference
+---
+
+## C Programming Reference
 
 - Dtatype,Input,Output [Link](http://cpbook.subeen.com/2011/08/data-type-input-output.html)
 
