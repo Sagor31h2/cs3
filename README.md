@@ -2,6 +2,8 @@
 
 _Sample outputs are in comment_
 
+- Original doc [Link](https://docs.google.com/document/u/0/d/18HiGtGwH7WTKE90VVV4AMzWJfvtG-ywuZk1OZd765VA/mobilebasic?fbclid=IwAR0H1N3BoraajPvLdImSRShmZlb9-zolz-eBvigYlFXVAijX01WVG26IFc8)
+
 ## IDE
 
 - **Windows** Code Blocks [Link](https://tinyurl.com/f8cfs5uh)
