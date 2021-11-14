@@ -36,4 +36,5 @@ _Sample outputs are in comment_
 
 ## Moc Test Question
 
-- Moc 1 ![image](https://github.com/Sagor31h2/cs3/blob/main/Moc%20test%201.png)
+- Moc 1
+  ![image](https://github.com/Sagor31h2/cs3/blob/main/Moc%20test%201.png)
