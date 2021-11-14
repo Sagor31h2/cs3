@@ -21,7 +21,7 @@ int main()
 
         x = x - (fn(x) / find(x));
 
-        printf("iter %d=%f\n", i + 1, x);
+        printf("Iter %d=%f\n", i + 1, x);
     }
     return 0;
 }
