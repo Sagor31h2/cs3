@@ -31,7 +31,14 @@ int main()
     }
     integration = integration * stepSize / 2;
     printf("\nRequired value of integration is: %.3f", integration);
-    getch();
+
+    /* declare abs value */
+    float abs_val = 1.00;
+    /*  Absolute errors */
+    printf("\nAbsolute errors is: %.3f", (abs_val - integration));
+    /*  Relative errors */
+    printf("\nRelative errors is: %.3f", ((abs_val - integration) / abs_val));
+
     return 0;
 }
 
