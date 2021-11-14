@@ -34,10 +34,14 @@ int main()
 
     /* declare abs value */
     float abs_val = 1.00;
+
     /*  Absolute errors */
-    printf("\nAbsolute errors is: %.3f", (abs_val - integration));
+    float abs_err = abs_val - integration;
+    printf("\nAbsolute errors is: %.3f", abs_err);
+
     /*  Relative errors */
-    printf("\nRelative errors is: %.3f", ((abs_val - integration) / abs_val));
+    float rel_err = (abs_val - integration) / abs_val;
+    printf("\nRelative errors is: %.3f", rel_err);
 
     return 0;
 }
