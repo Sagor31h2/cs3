@@ -31,3 +31,9 @@ _Sample outputs are in comment_
 ## IDE Common problems and solutions
 
 - Code Blocks [Link](https://wiki.codeblocks.org/index.php/Common_problems_and_solutions)
+
+---
+
+## Moc Test Question
+
+-Moc 1 ![image](https://github.com/Sagor31h2/cs3/blob/main/Moc%20test%201.png)
