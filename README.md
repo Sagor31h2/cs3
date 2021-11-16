@@ -6,8 +6,8 @@ _Sample outputs are in comment_
 
 ## IDE
 
-- [**Windows** Code Blocks](https://tinyurl.com/f8cfs5uh)
-- [**Android** Decoder](https://tinyurl.com/4mmtmmx8)
+- **Windows** [Code Blocks](https://tinyurl.com/f8cfs5uh) **Or**[with all config shortcut](https://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/codeblocks-20.03mingw-setup.exe/download)
+- **Android** [Decoder](https://tinyurl.com/4mmtmmx8)
 - [Online](https://tinyurl.com/2cydcpn3)
 
 ---
