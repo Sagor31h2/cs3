@@ -14,7 +14,7 @@ void calc_roots(double a, double b, double c)
     if (d > 0)
     {
         printf("Roots are both real and different \n");
-        printf("%f\n%f", (-b + sqrt_val) / (2 * a), (-b - sqrt_val) / (2 * a));
+        printf("%f \n %f", (-b + sqrt_val) / (2 * a), (-b - sqrt_val) / (2 * a));
     }
     else if (d == 0)
     {
@@ -29,7 +29,7 @@ void calc_roots(double a, double b, double c)
 }
 int main()
 {
-    double a = 2, b = -5, c = 8;
+    double a = 4, b = 4, c = 1;
     calc_roots(a, b, c);
     return 0;
 }

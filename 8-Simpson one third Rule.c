@@ -3,11 +3,11 @@
 #include <math.h>
 
 /* Define function here */
-#define f(x) 1 / (1 + x * x)
+#define f(x) 4 * x - (3 * x * x)
 
 int main()
 {
-    float lower, upper, integration = 0.0, stepSize, k;
+    float lower, upper, integration, stepSize, k;
     int i, subInterval;
 
     /* Input */
@@ -24,7 +24,7 @@ int main()
 
     /* Finding Integration Value */
     integration = f(lower) + f(upper);
-    for (i = 1; i <= subInterval - 1; i++)
+    for (i = 1; i < subInterval; i++)
     {
         k = lower + i * stepSize;
         if (i % 2 == 0)
@@ -52,10 +52,11 @@ int main()
     return 0;
 }
 /*
-Simpson's 1/3 Rule C Program Output
 Enter lower limit of integration: 0
 Enter upper limit of integration: 1
-Enter number of sub intervals: 6
+Enter number of sub intervals: 10
 
-Required value of integration is: 0.785
+Required value of integration is: 1.615
+Absolute errors is: -0.615
+Relative errors is: -0.615
 */

@@ -5,23 +5,24 @@
 
 float fn(float x)
 {
-    return 3 * x - cos(x) - 1;
+    return ((x * x * x) - (8 * x) - 4);
 }
 
 float find(float x)
 {
-    return 3 + sin(x);
+    return ((3 * x * x) - 8);
 }
 
 int main()
 {
     float x = 1;
-    for (int i = 0; i < 20; i++)
+
+    for (int i = 0; i < 10; i++)
     {
 
         x = x - (fn(x) / find(x));
 
-        printf("Iter %d=%f\n", i + 1, x);
+        printf("Iter %d =%f\n", i + 1, x);
     }
     return 0;
 }

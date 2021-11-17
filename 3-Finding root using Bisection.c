@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#define F(x) (x * x * x - 9 * x + 1)
+#define F(x) (x * x * x - 4 * x + 2)
 
 int main()
 {
@@ -26,6 +26,6 @@ int main()
         i++;
     } while (fabs(F(c)) > 0.001);
 
-    printf("\n\n\n approximate root=%.4f \n\n", c);
+    printf("\n\n\n approximate root=%.3f \n\n", c);
     return 0;
 }

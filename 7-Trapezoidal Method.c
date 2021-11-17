@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <conio.h>
 #include <math.h>
 
 /* Define function here */
-#define f(x) 1 / (1 + pow(x, 2))
+#define f(x) 4 * x - (3 * x * x)
 
 int main()
 {
@@ -47,10 +46,11 @@ int main()
 }
 
 /*
-Trapezoidal Method C Program Output
 Enter lower limit of integration: 0
 Enter upper limit of integration: 1
-Enter number of sub intervals: 6
+Enter number of sub intervals: 10
 
-Required value of integration is: 0.784
+Required value of integration is: 1.423
+Absolute errors is: -0.423
+Relative errors is: -0.423
 */
