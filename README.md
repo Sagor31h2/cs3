@@ -38,3 +38,7 @@ _Sample outputs are in comment_
 
 - Moc 1
   ![image](https://github.com/Sagor31h2/cs3/blob/main/Moc%20test%201.png)
+---
+
+## Discission videos
+- [Discussion 1](https://tinyurl.com/Cs3discussion1)
